@@ -102,7 +102,7 @@
 
             <fieldset>
                 <legend>Hábitos</legend>
-                <p>Redes Sociais</p>
+                <p>Redes Sociais:</p>
                 <input id="instagram" type="checkbox" name="social" value="instagram">
                 <label for="instagram">Instagram</label>
                 <br>
@@ -130,6 +130,29 @@
                 <br>
                 <label for="favoriteColor">Cor Favorita</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
+            </fieldset>
+  
+            <fieldset>
+                
+                <legend>Satisfação</legend>
+                <p>Avaliação:</p>
+
+                <input id="great" type="radio" name="userAvaliation" value="otima">
+                <label for="great">Ótima</label>
+                <br>
+                <input id="good" type="radio" name="userAvaliation" value="boa">
+                <label for="good">Boa</label>
+                <br>
+                <input id="regular" type="radio" name="userAvaliation" value="regular">
+                <label for="regular">Regular</label>
+                <br>
+                <input id="bad" type="radio" name="userAvaliation" value="ruim">
+                <label for="bad">Ruim</label>
+                <br>
+                <p>Deixe um comentário:</p>
+                <label for="comment">Escreva sua opinião</label>
+                <textarea name="userComment" id="comment" rows="10" cols="50" placeholder="Escreva sua mensagem aqui."></textarea>
+
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
